@@ -49,7 +49,7 @@ it("GET by Id " + endpointUrl + ":todoId", async () => {
 });
 it("GET todoby id doesn't exist" + endpointUrl + ":todoId", async () => {
   const response = await request(app)
-    .get(endpointUrl + "69fb23ff1e3c71362517d29b");
+    .get(endpointUrl + "69fb23ff1e3c71362517d24b");
   expect(response.statusCode).toBe(404);
 });
 it("PUT " + endpointUrl, async () => {
